@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('fonts/Pricedown.otf') format('truetype');
+}.kis-kép{
+    width: 200px;
+    height: auto;
+}
+header{
+    font-family: 'Pricedown', sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+    background-color: green;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    transition: background-color 0.5s ease;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    font-size: x-large;
+
+    
+}
+.Szöveg{
+    color: white;
+    text-decoration: none;
+}
+.Szöveg:hover{
+    transition: background-color 0.8s ease;
+    color: darkgreen;
+}
+header:hover {
+    background-color: rgb(95, 199, 95);
+
+}
+body{
+    background-color:gray;
+}
+.cikk{
+
+    background-color: white;
+     border-left: 6px solid green;
+    padding: 25px 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    font-family: "Playfair Display" , serif;
+
+}
+.cikk h3 {
+    text-align: center;
+    font-family: 'Pricedown', sans-serif;
+    font-size: 28px;
+    color: green;
+    margin-bottom: 18px;
+     text-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+.cikk p {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+.kis-kép{
+    width: 80%;
+    display: block;
+
+}
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
